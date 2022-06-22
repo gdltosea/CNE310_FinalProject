@@ -6,6 +6,7 @@ from flask import *
 import sqlite3, hashlib, os
 from werkzeug.utils import secure_filename
 
+
 app = Flask(__name__)
 app.secret_key = 'cna340'
 UPLOAD_FOLDER = 'static/uploads'
